@@ -5,7 +5,7 @@ namespace songaytrongthang
     class Program
     { 
  static void tinh(){
-Console.OutputEncoding = Encoding.UTF8;
+Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.Write("Nhập tháng : ");
             string Sthang = Console.ReadLine();
             int th = int.Parse(Sthang);
